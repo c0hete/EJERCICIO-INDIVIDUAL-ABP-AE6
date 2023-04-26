@@ -1,0 +1,59 @@
+img.fancybox {
+width: 300px;
+max-height: 500;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Agregamos esto para mostrar los elementos uno debajo del otro */
+    height: 100vh;
+}
+
+.container img {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 20px; /* Agregamos un poco de espacio debajo de la imagen */
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+        
+        /* Estilos para el navbar */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+        }
+        
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        footer a {
+            color: white;
+            margin-right: 20px;
+        }
+        
+        
